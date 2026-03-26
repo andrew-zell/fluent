@@ -1,0 +1,81 @@
+.btn {
+  display: inline-flex;
+  align-items: stretch;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.btn-serif {
+  font-family: var(--f-play);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 12px 14px 12px 17px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.btn-rule {
+  width: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.btn-sans {
+  font-family: var(--f-sans);
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+/* Sizes */
+.btn-lg .btn-serif { font-size: 17px; padding: 15px 16px 15px 20px; }
+.btn-lg .btn-sans  { font-size: 10px; padding: 15px 18px; }
+.btn-sm .btn-serif { font-size: 12px; padding: 9px 11px 9px 13px; }
+.btn-sm .btn-sans  { font-size: 8px;  padding: 9px 11px; }
+
+/* ink */
+.btn-ink            { background-color: var(--i0); }
+.btn-ink .btn-serif { color: var(--p1); }
+.btn-ink .btn-rule  { background-color: rgba(247,243,236,0.2); }
+.btn-ink .btn-sans  { color: rgba(247,243,236,0.5); }
+
+/* verd */
+.btn-verd            { background-color: var(--v4); }
+.btn-verd .btn-serif { color: var(--p0); }
+.btn-verd .btn-rule  { background-color: rgba(234,243,238,0.22); }
+.btn-verd .btn-sans  { color: rgba(234,243,238,0.55); }
+
+/* verd-deep */
+.btn-verd-deep            { background-color: var(--v5); }
+.btn-verd-deep .btn-serif { color: var(--p0); }
+.btn-verd-deep .btn-rule  { background-color: rgba(234,243,238,0.18); }
+.btn-verd-deep .btn-sans  { color: rgba(234,243,238,0.45); }
+
+/* ghost */
+.btn-ghost            { background-color: transparent; box-shadow: inset 0 0 0 1.5px var(--i0); }
+.btn-ghost .btn-serif { color: var(--i0); }
+.btn-ghost .btn-rule  { background-color: rgba(15,14,12,0.18); }
+.btn-ghost .btn-sans  { color: var(--i3); }
+
+/* ghost-light */
+.btn-ghost-light            { background-color: transparent; box-shadow: inset 0 0 0 1px rgba(247,243,236,0.3); }
+.btn-ghost-light .btn-serif { color: rgba(247,243,236,0.72); }
+.btn-ghost-light .btn-rule  { background-color: rgba(247,243,236,0.15); }
+.btn-ghost-light .btn-sans  { color: rgba(247,243,236,0.35); }
+
+/* parch */
+.btn-parch            { background-color: var(--p1); }
+.btn-parch .btn-serif { color: var(--i0); }
+.btn-parch .btn-rule  { background-color: rgba(15,14,12,0.12); }
+.btn-parch .btn-sans  { color: var(--i3); }

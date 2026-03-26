@@ -1,0 +1,44 @@
+.curriculum-section,
+.required-section {
+  padding: 36px var(--page-padding) 0;
+}
+
+.required-section { padding-bottom: 64px; }
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.section-title {
+  font-family: var(--f-play);
+  font-size: 14px; font-weight: 400;
+  color: var(--i0);
+}
+
+.section-hint {
+  font-family: var(--f-sans);
+  font-size: 9px; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--i4);
+}
+
+.cards-scroll {
+  display: flex;
+  gap: 2px;
+  overflow-x: auto;
+  margin-right: calc(-1 * var(--page-padding));
+  padding-right: var(--page-padding);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.cards-scroll::-webkit-scrollbar { display: none; }
+
+.required-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}

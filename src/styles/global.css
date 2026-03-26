@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: var(--p1);
+  font-family: var(--f-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  min-height: 100vh;
+  background-color: var(--p1);
+  background-image:
+    linear-gradient(rgba(80,75,65,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80,75,65,0.06) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+}
